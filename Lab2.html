@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 2</title>
+</head>
+
+<body>
+<h1> Lab 2 </h1>
+<audio id="Audio1">
+  <source src="trumpet.mp3" type="audio/mpeg">
+  Your browser does not support the audio element. </audio>
+<audio id="Audio2">
+  <source src="piano.mp3" type="audio/mpeg">
+  Your browser does not support the audio element. </audio>
+<audio id="Audio3">
+  <source src="flute.wav" type="audio/wav">
+  Your browser does not support the audio element. </audio>
+<audio id="Audio4">
+  <source src="guitar.wav" type="audio/wav">
+  Your browser does not support the audio element. </audio>
+<audio id="Audio5">
+  <source src="drums.wav" type="audio/wav">
+  Your browser does not support the audio element. </audio>
+<button id="Button1" onclick="playAudio1()" type="button">Press to Play Trumpet</button>
+<button id="Button2" onclick="playAudio2()" type="button">Press to Play Piano</button>
+<button id="Button3" onclick="playAudio3()" type="button">Press to Play Flute</button>
+<button id="Button4" onclick="playAudio4()" type="button">Press to Play Guitar</button>
+<button id="Button5" onclick="playAudio5()" type="button">Press to Play Drums</button>
+<script>
+var a = document.getElementById("Audio1");
+
+function playAudio1() {
+  a.play();
+}
+
+var b = document.getElementById("Audio2");
+
+function playAudio2() {
+  b.play();
+}
+var c = document.getElementById("Audio3");
+
+function playAudio3() {
+  c.play();
+}
+var d = document.getElementById("Audio4");
+
+function playAudio4() {
+  d.play();
+}
+var e = document.getElementById("Audio5");
+
+function playAudio5() {
+  e.play();
+}
+	</script>
+    
+</body>
+</html>
